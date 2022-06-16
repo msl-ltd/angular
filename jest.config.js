@@ -1,3 +1,8 @@
+globalThis.ngJest = {
+  skipNgcc: false,
+  tsconfig: 'tsconfig.spec.json',
+};
+
 module.exports = {
   preset: 'jest-preset-angular',
   setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
