@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      timezone: "Asia/Tokyo"
+    ignore:
+      - dependency-name: "@angular*"
+      - dependency-name: "rxjs"
+      - dependency-name: "tslib"
+      - dependency-name: "zone.js"
+      - dependency-name: "@types/node"
+      - dependency-name: "typescript"
+    commit-message:
+      prefix: "chore(deps): "
