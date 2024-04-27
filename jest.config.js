@@ -1,5 +1,4 @@
 globalThis.ngJest = {
-  skipNgcc: false,
   tsconfig: 'tsconfig.spec.json',
 };
 
